@@ -30,5 +30,5 @@ Booker.add(self, 'y', 160, 10, 60)
 0になっているself.flagをスペースキーが押された30フレーム後に1にする
 ```py
 if pyxel.btnp(pyxel.KEY_SPACE):
-  Booker.add(self, 'y', 1, 30, 1)
+  Booker.add(self, 'flag', 1, 30, 1)
 ```
